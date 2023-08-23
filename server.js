@@ -21,7 +21,7 @@ const sess = {
     rolling: true,
     saveUninitialized: true,
     store: new SequelizeStore({
-      db: sequelize
+      db: techblog
     }),
   };
   
